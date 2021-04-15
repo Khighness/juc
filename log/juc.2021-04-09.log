@@ -1,0 +1,580 @@
+2021-04-09 18:04:37.015 [main] DEBUG Biased - top.parak.share.Biased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           01 00 00 00 (00000001 00000000 00000000 00000000) (1)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           46 b6 01 f8 (01000110 10110110 00000001 11111000) (-134105530)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 18:04:51.062 [main] DEBUG Biased - top.parak.share.Biased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           01 00 00 00 (00000001 00000000 00000000 00000000) (1)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           46 b6 01 f8 (01000110 10110110 00000001 11111000) (-134105530)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 18:06:27.567 [main] DEBUG Biased - top.parak.share.Biased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           01 00 00 00 (00000001 00000000 00000000 00000000) (1)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           46 b6 01 f8 (01000110 10110110 00000001 11111000) (-134105530)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 18:06:30.573 [main] DEBUG Biased - top.parak.share.Biased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           01 00 00 00 (00000001 00000000 00000000 00000000) (1)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           46 b6 01 f8 (01000110 10110110 00000001 11111000) (-134105530)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 18:08:45.226 [main] DEBUG Biased - top.parak.share.Biased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           01 00 00 00 (00000001 00000000 00000000 00000000) (1)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           46 b6 01 f8 (01000110 10110110 00000001 11111000) (-134105530)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 18:08:48.232 [main] DEBUG Biased - top.parak.share.Biased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           05 00 00 00 (00000101 00000000 00000000 00000000) (5)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           46 b6 01 f8 (01000110 10110110 00000001 11111000) (-134105530)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 18:09:50.771 [main] DEBUG Biased - top.parak.share.Biased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           01 00 00 00 (00000001 00000000 00000000 00000000) (1)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           46 b6 01 f8 (01000110 10110110 00000001 11111000) (-134105530)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 18:09:53.779 [main] DEBUG Biased - top.parak.share.Biased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           05 00 00 00 (00000101 00000000 00000000 00000000) (5)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           46 b6 01 f8 (01000110 10110110 00000001 11111000) (-134105530)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 19:13:46.576 [main] DEBUG Biased - top.parak.share.Biased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           05 00 00 00 (00000101 00000000 00000000 00000000) (5)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           46 b6 01 f8 (01000110 10110110 00000001 11111000) (-134105530)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 19:13:49.590 [main] DEBUG Biased - top.parak.share.Biased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           05 00 00 00 (00000101 00000000 00000000 00000000) (5)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           46 b6 01 f8 (01000110 10110110 00000001 11111000) (-134105530)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 19:14:01.616 [main] DEBUG Biased - top.parak.share.Biased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           01 00 00 00 (00000001 00000000 00000000 00000000) (1)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           46 b6 01 f8 (01000110 10110110 00000001 11111000) (-134105530)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 19:14:04.632 [main] DEBUG Biased - top.parak.share.Biased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           05 00 00 00 (00000101 00000000 00000000 00000000) (5)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           46 b6 01 f8 (01000110 10110110 00000001 11111000) (-134105530)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 19:14:30.487 [main] DEBUG Biased - Before Biased Lock
+2021-04-09 19:14:32.083 [main] DEBUG Biased - top.parak.share.Biased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           01 00 00 00 (00000001 00000000 00000000 00000000) (1)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           70 b8 01 f8 (01110000 10111000 00000001 11111000) (-134104976)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 19:14:35.096 [main] DEBUG Biased - After Biased Lock
+2021-04-09 19:14:35.097 [main] DEBUG Biased - top.parak.share.Biased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           05 00 00 00 (00000101 00000000 00000000 00000000) (5)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           70 b8 01 f8 (01110000 10111000 00000001 11111000) (-134104976)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 20:52:03.835 [main] DEBUG Biased - Before Biased Lock
+2021-04-09 20:52:05.390 [main] DEBUG Biased - top.parak.share.Biased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           01 00 00 00 (00000001 00000000 00000000 00000000) (1)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           46 b6 01 f8 (01000110 10110110 00000001 11111000) (-134105530)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 20:52:06.401 [main] DEBUG Biased - top.parak.share.Biased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           18 f6 ac 02 (00011000 11110110 10101100 00000010) (44889624)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           46 b6 01 f8 (01000110 10110110 00000001 11111000) (-134105530)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 20:52:06.401 [main] DEBUG Biased - After Biased Lock
+2021-04-09 20:52:06.402 [main] DEBUG Biased - top.parak.share.Biased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           01 00 00 00 (00000001 00000000 00000000 00000000) (1)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           46 b6 01 f8 (01000110 10110110 00000001 11111000) (-134105530)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 20:52:39.322 [main] DEBUG Biased - Before Biased Lock
+2021-04-09 20:52:40.977 [main] DEBUG Biased - top.parak.share.Biased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           01 00 00 00 (00000001 00000000 00000000 00000000) (1)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           46 b6 01 f8 (01000110 10110110 00000001 11111000) (-134105530)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 20:52:43.985 [main] DEBUG Biased - top.parak.share.Biased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           a8 f1 1c 03 (10101000 11110001 00011100 00000011) (52228520)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           46 b6 01 f8 (01000110 10110110 00000001 11111000) (-134105530)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 20:52:43.985 [main] DEBUG Biased - After Biased Lock
+2021-04-09 20:52:43.985 [main] DEBUG Biased - top.parak.share.Biased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           05 00 00 00 (00000101 00000000 00000000 00000000) (5)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           46 b6 01 f8 (01000110 10110110 00000001 11111000) (-134105530)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 21:42:04.932 [main] DEBUG Biased - Before Biased Lock
+2021-04-09 21:42:06.433 [main] DEBUG Biased - top.parak.share.Biased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           01 00 00 00 (00000001 00000000 00000000 00000000) (1)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           46 b6 01 f8 (01000110 10110110 00000001 11111000) (-134105530)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 21:42:09.435 [main] DEBUG Biased - top.parak.share.Biased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           e8 f6 29 03 (11101000 11110110 00101001 00000011) (53081832)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           46 b6 01 f8 (01000110 10110110 00000001 11111000) (-134105530)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 21:42:09.436 [main] DEBUG Biased - After Biased Lock
+2021-04-09 21:42:09.436 [main] DEBUG Biased - top.parak.share.Biased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           01 00 00 00 (00000001 00000000 00000000 00000000) (1)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           46 b6 01 f8 (01000110 10110110 00000001 11111000) (-134105530)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 21:43:31.186 [main] DEBUG Biased - Before Biased Lock
+2021-04-09 21:43:32.664 [main] DEBUG Biased - top.parak.share.Biased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           01 00 00 00 (00000001 00000000 00000000 00000000) (1)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           46 b6 01 f8 (01000110 10110110 00000001 11111000) (-134105530)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 21:43:35.678 [main] DEBUG Biased - top.parak.share.Biased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           58 f4 48 02 (01011000 11110100 01001000 00000010) (38335576)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           46 b6 01 f8 (01000110 10110110 00000001 11111000) (-134105530)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 21:43:35.678 [main] DEBUG Biased - After Biased Lock
+2021-04-09 21:43:35.679 [main] DEBUG Biased - top.parak.share.Biased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           01 00 00 00 (00000001 00000000 00000000 00000000) (1)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           46 b6 01 f8 (01000110 10110110 00000001 11111000) (-134105530)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 21:49:51.751 [main] DEBUG Biased - Before Biased Lock
+2021-04-09 21:49:53.267 [main] DEBUG Biased - top.parak.share.Biased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           01 00 00 00 (00000001 00000000 00000000 00000000) (1)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           46 b6 01 f8 (01000110 10110110 00000001 11111000) (-134105530)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 21:49:56.270 [main] DEBUG Biased - top.parak.share.Biased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           38 f1 66 03 (00111000 11110001 01100110 00000011) (57078072)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           46 b6 01 f8 (01000110 10110110 00000001 11111000) (-134105530)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 21:49:56.270 [main] DEBUG Biased - After Biased Lock
+2021-04-09 21:49:56.271 [main] DEBUG Biased - top.parak.share.Biased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           01 00 00 00 (00000001 00000000 00000000 00000000) (1)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           46 b6 01 f8 (01000110 10110110 00000001 11111000) (-134105530)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 21:50:46.743 [main] DEBUG Biased - Before Biased Lock
+2021-04-09 21:50:48.264 [main] DEBUG Biased - top.parak.share.Biased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           01 00 00 00 (00000001 00000000 00000000 00000000) (1)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           46 b6 01 f8 (01000110 10110110 00000001 11111000) (-134105530)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 21:50:51.274 [main] DEBUG Biased - top.parak.share.Biased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           c8 f4 bd 02 (11001000 11110100 10111101 00000010) (46003400)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           46 b6 01 f8 (01000110 10110110 00000001 11111000) (-134105530)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 21:50:51.274 [main] DEBUG Biased - After Biased Lock
+2021-04-09 21:50:51.275 [main] DEBUG Biased - top.parak.share.Biased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           01 00 00 00 (00000001 00000000 00000000 00000000) (1)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           46 b6 01 f8 (01000110 10110110 00000001 11111000) (-134105530)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 21:51:09.982 [main] DEBUG Biased - Before Biased Lock
+2021-04-09 21:51:11.436 [main] DEBUG Biased - top.parak.share.Biased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           01 00 00 00 (00000001 00000000 00000000 00000000) (1)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           46 b6 01 f8 (01000110 10110110 00000001 11111000) (-134105530)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 21:51:14.449 [main] DEBUG Biased - top.parak.share.Biased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           28 f8 1f 03 (00101000 11111000 00011111 00000011) (52426792)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           46 b6 01 f8 (01000110 10110110 00000001 11111000) (-134105530)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 21:51:14.449 [main] DEBUG Biased - After Biased Lock
+2021-04-09 21:51:14.450 [main] DEBUG Biased - top.parak.share.Biased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           01 00 00 00 (00000001 00000000 00000000 00000000) (1)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           46 b6 01 f8 (01000110 10110110 00000001 11111000) (-134105530)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 21:51:29.997 [main] DEBUG Biased - Before Biased Lock
+2021-04-09 21:51:31.450 [main] DEBUG Biased - top.parak.share.Biased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           05 00 00 00 (00000101 00000000 00000000 00000000) (5)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           46 b6 01 f8 (01000110 10110110 00000001 11111000) (-134105530)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 21:51:34.454 [main] DEBUG Biased - top.parak.share.Biased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           05 38 a5 02 (00000101 00111000 10100101 00000010) (44382213)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           46 b6 01 f8 (01000110 10110110 00000001 11111000) (-134105530)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 21:51:34.454 [main] DEBUG Biased - After Biased Lock
+2021-04-09 21:51:34.454 [main] DEBUG Biased - top.parak.share.Biased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           05 38 a5 02 (00000101 00111000 10100101 00000010) (44382213)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           46 b6 01 f8 (01000110 10110110 00000001 11111000) (-134105530)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 21:54:40.733 [main] DEBUG Hashcode - 564160838
+2021-04-09 21:54:42.189 [main] DEBUG Hashcode - top.parak.share.Biased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           01 46 69 a0 (00000001 01000110 01101001 10100000) (-1603713535)
+      4     4        (object header)                           21 00 00 00 (00100001 00000000 00000000 00000000) (33)
+      8     4        (object header)                           46 b6 01 f8 (01000110 10110110 00000001 11111000) (-134105530)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 22:12:38.386 [main] DEBUG Hashcode - 564160838
+2021-04-09 22:12:39.972 [main] DEBUG Hashcode - top.parak.share.Biased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           01 46 69 a0 (00000001 01000110 01101001 10100000) (-1603713535)
+      4     4        (object header)                           21 00 00 00 (00100001 00000000 00000000 00000000) (33)
+      8     4        (object header)                           46 b6 01 f8 (01000110 10110110 00000001 11111000) (-134105530)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 22:42:11.504 [t1] DEBUG OtherThreadBiased - top.parak.share.OtherThreadBiased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           01 00 00 00 (00000001 00000000 00000000 00000000) (1)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           46 b6 01 f8 (01000110 10110110 00000001 11111000) (-134105530)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 22:42:11.507 [t1] DEBUG OtherThreadBiased - top.parak.share.OtherThreadBiased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           18 ed 2a 20 (00011000 11101101 00101010 00100000) (539684120)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           46 b6 01 f8 (01000110 10110110 00000001 11111000) (-134105530)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 22:42:11.508 [t2] DEBUG OtherThreadBiased - top.parak.share.OtherThreadBiased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           01 00 00 00 (00000001 00000000 00000000 00000000) (1)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           46 b6 01 f8 (01000110 10110110 00000001 11111000) (-134105530)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 22:42:11.509 [t2] DEBUG OtherThreadBiased - top.parak.share.OtherThreadBiased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           80 f1 3a 20 (10000000 11110001 00111010 00100000) (540733824)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           46 b6 01 f8 (01000110 10110110 00000001 11111000) (-134105530)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 22:42:11.510 [t2] DEBUG OtherThreadBiased - top.parak.share.OtherThreadBiased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           01 00 00 00 (00000001 00000000 00000000 00000000) (1)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           46 b6 01 f8 (01000110 10110110 00000001 11111000) (-134105530)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 22:44:13.401 [t1] DEBUG OtherThreadBiased - top.parak.share.OtherThreadBiased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           05 00 00 00 (00000101 00000000 00000000 00000000) (5)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           46 b6 01 f8 (01000110 10110110 00000001 11111000) (-134105530)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 22:44:13.403 [t1] DEBUG OtherThreadBiased - top.parak.share.OtherThreadBiased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           05 10 3a 20 (00000101 00010000 00111010 00100000) (540676101)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           46 b6 01 f8 (01000110 10110110 00000001 11111000) (-134105530)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 22:44:13.404 [t2] DEBUG OtherThreadBiased - top.parak.share.OtherThreadBiased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           05 10 3a 20 (00000101 00010000 00111010 00100000) (540676101)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           46 b6 01 f8 (01000110 10110110 00000001 11111000) (-134105530)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 22:44:13.405 [t2] DEBUG OtherThreadBiased - top.parak.share.OtherThreadBiased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           50 f3 8f 20 (01010000 11110011 10001111 00100000) (546304848)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           46 b6 01 f8 (01000110 10110110 00000001 11111000) (-134105530)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 22:44:13.406 [t2] DEBUG OtherThreadBiased - top.parak.share.OtherThreadBiased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           01 00 00 00 (00000001 00000000 00000000 00000000) (1)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           46 b6 01 f8 (01000110 10110110 00000001 11111000) (-134105530)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 22:47:09.284 [t1] DEBUG OtherThreadBiased - top.parak.share.OtherThreadBiased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           05 00 00 00 (00000101 00000000 00000000 00000000) (5)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           46 b6 01 f8 (01000110 10110110 00000001 11111000) (-134105530)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 22:47:09.287 [t1] DEBUG OtherThreadBiased - top.parak.share.OtherThreadBiased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           05 20 8c 20 (00000101 00100000 10001100 00100000) (546054149)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           46 b6 01 f8 (01000110 10110110 00000001 11111000) (-134105530)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 22:47:09.288 [t1] DEBUG OtherThreadBiased - top.parak.share.OtherThreadBiased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           05 20 8c 20 (00000101 00100000 10001100 00100000) (546054149)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           46 b6 01 f8 (01000110 10110110 00000001 11111000) (-134105530)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 22:47:09.289 [t2] DEBUG OtherThreadBiased - top.parak.share.OtherThreadBiased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           05 20 8c 20 (00000101 00100000 10001100 00100000) (546054149)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           46 b6 01 f8 (01000110 10110110 00000001 11111000) (-134105530)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 22:47:09.291 [t2] DEBUG OtherThreadBiased - top.parak.share.OtherThreadBiased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           30 f0 e5 20 (00110000 11110000 11100101 00100000) (551940144)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           46 b6 01 f8 (01000110 10110110 00000001 11111000) (-134105530)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 22:47:09.291 [t2] DEBUG OtherThreadBiased - top.parak.share.OtherThreadBiased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           01 00 00 00 (00000001 00000000 00000000 00000000) (1)
+      4     4        (object header)                           00 00 00 00 (00000000 00000000 00000000 00000000) (0)
+      8     4        (object header)                           46 b6 01 f8 (01000110 10110110 00000001 11111000) (-134105530)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 22:59:05.895 [t1] DEBUG OtherThreadBiased - 05 00 00 00 (00000101 00000000 00000000 00000000) (5)
+2021-04-09 22:59:05.898 [t1] DEBUG OtherThreadBiased - 05 20 46 20 (00000101 00100000 01000110 00100000) (54
+2021-04-09 22:59:05.899 [t1] DEBUG OtherThreadBiased - 05 20 46 20 (00000101 00100000 01000110 00100000) (54
+2021-04-09 22:59:05.900 [t2] DEBUG OtherThreadBiased - 05 20 46 20 (00000101 00100000 01000110 00100000) (54
+2021-04-09 22:59:05.901 [t2] DEBUG OtherThreadBiased - d0 f3 98 20 (11010000 11110011 10011000 00100000) (54
+2021-04-09 22:59:05.901 [t2] DEBUG OtherThreadBiased - 01 00 00 00 (00000001 00000000 00000000 00000000) (1)
+2021-04-09 22:59:21.603 [t1] DEBUG OtherThreadBiased - 05 00 00 00 (00000101 00000000 00000000 00000000) (5)
+2021-04-09 22:59:21.605 [t1] DEBUG OtherThreadBiased - 05 10 76 20 (00000101 00010000 01110110 00100000) (54
+2021-04-09 22:59:21.606 [t1] DEBUG OtherThreadBiased - 05 10 76 20 (00000101 00010000 01110110 00100000) (54
+2021-04-09 22:59:21.607 [t2] DEBUG OtherThreadBiased - 05 10 76 20 (00000101 00010000 01110110 00100000) (54
+2021-04-09 22:59:21.609 [t2] DEBUG OtherThreadBiased - b0 f1 d4 20 (10110000 11110001 11010100 00100000) (55
+2021-04-09 22:59:21.609 [t2] DEBUG OtherThreadBiased - 01 00 00 00 (00000001 00000000 00000000 00000000) (1)
+2021-04-09 22:59:31.885 [t1] DEBUG OtherThreadBiased - 05 00 00 00 (00000101 00000000 00000000 00000000) (5)
+
+2021-04-09 22:59:31.888 [t1] DEBUG OtherThreadBiased - 05 70 c1 20 (00000101 01110000 11000001 00100000) (5495
+2021-04-09 22:59:31.889 [t1] DEBUG OtherThreadBiased - 05 70 c1 20 (00000101 01110000 11000001 00100000) (5495
+2021-04-09 22:59:31.890 [t2] DEBUG OtherThreadBiased - 05 70 c1 20 (00000101 01110000 11000001 00100000) (5495
+2021-04-09 22:59:31.891 [t2] DEBUG OtherThreadBiased - d0 f5 05 21 (11010000 11110101 00000101 00100001) (5540
+2021-04-09 22:59:31.892 [t2] DEBUG OtherThreadBiased - 01 00 00 00 (00000001 00000000 00000000 00000000) (1)
+
+2021-04-09 22:59:48.131 [t1] DEBUG OtherThreadBiased - 05 00 00 00 (00000101 00000000 00000000 00000000) (5)
+
+2021-04-09 22:59:48.134 [t1] DEBUG OtherThreadBiased - 05 00 ca 20 (00000101 00000000 11001010 00100000) (550
+2021-04-09 22:59:48.135 [t1] DEBUG OtherThreadBiased - 05 00 ca 20 (00000101 00000000 11001010 00100000) (550
+2021-04-09 22:59:48.136 [t2] DEBUG OtherThreadBiased - 05 00 ca 20 (00000101 00000000 11001010 00100000) (550
+2021-04-09 22:59:48.138 [t2] DEBUG OtherThreadBiased - 00 f3 1c 21 (00000000 11110011 00011100 00100001) (555
+2021-04-09 22:59:48.138 [t2] DEBUG OtherThreadBiased - 01 00 00 00 (00000001 00000000 00000000 00000000) (1)
+
+2021-04-09 22:59:59.709 [t1] DEBUG OtherThreadBiased - 05 00 00 00 (00000101 00000000 00000000 00000000) (5)
+2021-04-09 22:59:59.713 [t1] DEBUG OtherThreadBiased - 05 28 62 20 (00000101 00101000 01100010 00100000) (54
+2021-04-09 22:59:59.714 [t1] DEBUG OtherThreadBiased - 05 28 62 20 (00000101 00101000 01100010 00100000) (54
+2021-04-09 22:59:59.716 [t2] DEBUG OtherThreadBiased - 05 28 62 20 (00000101 00101000 01100010 00100000) (54
+2021-04-09 22:59:59.717 [t2] DEBUG OtherThreadBiased - 90 ec b8 20 (10010000 11101100 10111000 00100000) (54
+2021-04-09 22:59:59.718 [t2] DEBUG OtherThreadBiased - 01 00 00 00 (00000001 00000000 00000000 00000000) (1)
+2021-04-09 23:00:07.701 [main] DEBUG HashcodeBiased - 564160838
+2021-04-09 23:00:09.309 [main] DEBUG HashcodeBiased - top.parak.share.HashcodeBiased object internals:
+ OFFSET  SIZE   TYPE DESCRIPTION                               VALUE
+      0     4        (object header)                           01 46 69 a0 (00000001 01000110 01101001 10100000) (-1603713535)
+      4     4        (object header)                           21 00 00 00 (00100001 00000000 00000000 00000000) (33)
+      8     4        (object header)                           46 b6 01 f8 (01000110 10110110 00000001 11111000) (-134105530)
+     12     4        (loss due to the next object alignment)
+Instance size: 16 bytes
+Space losses: 0 bytes internal + 4 bytes external = 4 bytes total
+
+2021-04-09 23:00:25.429 [main] DEBUG HashcodeBiased - 564160838
+2021-04-09 23:00:27.051 [main] DEBUG HashcodeBiased - 46 69 a0 (00000001 01000110 01101001 10100000) (-1603
+2021-04-09 23:03:39.378 [main] DEBUG HashcodeBiased - 00 00 00 (00000101 00000000 00000000 00000000) (5)
+
+2021-04-09 23:03:39.380 [main] DEBUG HashcodeBiased - 1268650975
+2021-04-09 23:03:39.381 [main] DEBUG HashcodeBiased - df 13 9e (00000001 11011111 00010011 10011110) (-1642
+2021-04-09 23:20:08.722 [t1] DEBUG OtherThreadBiased - 05 00 00 00 (00000101 00000000 00000000 00000000) (5)
+2021-04-09 23:20:08.724 [t1] DEBUG OtherThreadBiased - 05 80 71 20 (00000101 10000000 01110001 00100000) (54
+2021-04-09 23:20:08.725 [t1] DEBUG OtherThreadBiased - 05 80 71 20 (00000101 10000000 01110001 00100000) (54
+2021-04-09 23:20:08.726 [t2] DEBUG OtherThreadBiased - 05 80 71 20 (00000101 10000000 01110001 00100000) (54
+2021-04-09 23:20:08.727 [t2] DEBUG OtherThreadBiased - a0 f2 c0 20 (10100000 11110010 11000000 00100000) (54
+2021-04-09 23:20:08.728 [t2] DEBUG OtherThreadBiased - 01 00 00 00 (00000001 00000000 00000000 00000000) (1)
