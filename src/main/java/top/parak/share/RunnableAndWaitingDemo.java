@@ -2,6 +2,7 @@ package top.parak.share;
 
 import lombok.extern.slf4j.Slf4j;
 
+import java.text.DecimalFormat;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -43,5 +44,6 @@ public class RunnableAndWaitingDemo {
         synchronized (obj) {
             obj.notifyAll();
         }
+        DecimalFormat decimalFormat = new DecimalFormat("0.00");
     }
 }
