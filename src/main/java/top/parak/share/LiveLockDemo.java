@@ -9,35 +9,35 @@ import java.util.concurrent.TimeUnit;
  * @since 2021-04-22
  */
 
-@Slf4j(topic = "DeadLock")
-public class DeadLockDemo {
+@Slf4j(topic = "LiveLock")
+public class LiveLockDemo {
+
+    static volatile int count = 10;
+    static final Object lock = new Object();
+
     public static void main(String[] args) {
-        final Object A = new Object();
-        final Object B = new Object();
         new Thread(() -> {
-            synchronized (A) {
-                log.debug("lock A");
+            // 期望减到0，退出循环
+            while (count > 0) {
                 try {
-                    TimeUnit.SECONDS.sleep(1);
+                    TimeUnit.MILLISECONDS.sleep(10);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
-                synchronized (B) {
-                    log.debug("lock B");
-                }
+                count--;
+                log.debug("count: {}", count);
             }
         }, "t1").start();
         new Thread(() -> {
-            synchronized (B) {
-                log.debug("lock B");
+            // 期望超过20退出循环
+            while (count < 20) {
                 try {
-                    TimeUnit.SECONDS.sleep(1);
+                    TimeUnit.MILLISECONDS.sleep(10);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
-                synchronized (A) {
-                    log.debug("lock A");
-                }
+                count++;
+                log.debug("count: {}", count);
             }
         }, "t2").start();
     }

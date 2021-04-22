@@ -6,3 +6,253 @@
 2021-04-22 00:15:02.622 [小女] DEBUG BigRoom - sleep2个小时
 2021-04-22 08:25:32.163 [t1] DEBUG Callable - running
 2021-04-22 08:25:32.166 [main] DEBUG Callable - KHighness
+2021-04-22 11:10:13.132 [t1] DEBUG DeadLock - lock A
+2021-04-22 11:10:13.132 [t2] DEBUG DeadLock - lock B
+2021-04-22 11:15:18.223 [t2] DEBUG DeadLock - lock B
+2021-04-22 11:15:18.223 [t1] DEBUG DeadLock - lock A
+2021-04-22 14:15:17.026 [亚里士多德] DEBUG Philosopher - eating...
+2021-04-22 14:15:17.026 [苏格拉底] DEBUG Philosopher - eating...
+2021-04-22 14:15:51.670 [亚里士多德] DEBUG Philosopher - eating...
+2021-04-22 14:15:51.670 [苏格拉底] DEBUG Philosopher - eating...
+2021-04-22 14:15:52.680 [苏格拉底] DEBUG Philosopher - eating...
+2021-04-22 14:15:57.623 [亚里士多德] DEBUG Philosopher - eating...
+2021-04-22 14:15:57.623 [苏格拉底] DEBUG Philosopher - eating...
+2021-04-22 14:15:58.632 [亚里士多德] DEBUG Philosopher - eating...
+2021-04-22 14:15:58.632 [苏格拉底] DEBUG Philosopher - eating...
+2021-04-22 14:15:59.643 [柏拉图] DEBUG Philosopher - eating...
+2021-04-22 14:16:00.647 [柏拉图] DEBUG Philosopher - eating...
+2021-04-22 14:55:40.707 [t2] DEBUG LiveLock - count: 10
+2021-04-22 14:55:40.707 [t1] DEBUG LiveLock - count: 9
+2021-04-22 14:55:42.723 [t1] DEBUG LiveLock - count: 11
+2021-04-22 14:55:42.723 [t2] DEBUG LiveLock - count: 11
+2021-04-22 14:55:44.727 [t2] DEBUG LiveLock - count: 12
+2021-04-22 14:55:44.727 [t1] DEBUG LiveLock - count: 12
+2021-04-22 14:55:46.739 [t2] DEBUG LiveLock - count: 11
+2021-04-22 14:55:46.739 [t1] DEBUG LiveLock - count: 11
+2021-04-22 14:55:48.748 [t2] DEBUG LiveLock - count: 12
+2021-04-22 14:55:48.748 [t1] DEBUG LiveLock - count: 12
+2021-04-22 14:55:50.749 [t2] DEBUG LiveLock - count: 13
+2021-04-22 14:55:50.749 [t1] DEBUG LiveLock - count: 13
+2021-04-22 14:55:52.750 [t2] DEBUG LiveLock - count: 14
+2021-04-22 14:55:52.750 [t1] DEBUG LiveLock - count: 14
+2021-04-22 14:55:54.756 [t2] DEBUG LiveLock - count: 14
+2021-04-22 14:55:54.756 [t1] DEBUG LiveLock - count: 13
+2021-04-22 14:55:56.761 [t1] DEBUG LiveLock - count: 13
+2021-04-22 14:55:56.761 [t2] DEBUG LiveLock - count: 14
+2021-04-22 14:55:58.772 [t1] DEBUG LiveLock - count: 14
+2021-04-22 14:55:58.772 [t2] DEBUG LiveLock - count: 14
+2021-04-22 14:56:00.786 [t2] DEBUG LiveLock - count: 14
+2021-04-22 14:56:00.786 [t1] DEBUG LiveLock - count: 13
+2021-04-22 14:56:02.792 [t2] DEBUG LiveLock - count: 13
+2021-04-22 14:56:02.792 [t1] DEBUG LiveLock - count: 13
+2021-04-22 14:56:04.795 [t1] DEBUG LiveLock - count: 14
+2021-04-22 14:56:04.795 [t2] DEBUG LiveLock - count: 14
+2021-04-22 14:56:06.796 [t2] DEBUG LiveLock - count: 15
+2021-04-22 14:56:06.796 [t1] DEBUG LiveLock - count: 15
+2021-04-22 14:56:08.803 [t2] DEBUG LiveLock - count: 15
+2021-04-22 14:56:08.803 [t1] DEBUG LiveLock - count: 15
+2021-04-22 14:56:10.810 [t2] DEBUG LiveLock - count: 14
+2021-04-22 14:56:10.810 [t1] DEBUG LiveLock - count: 14
+2021-04-22 14:56:12.810 [t1] DEBUG LiveLock - count: 13
+2021-04-22 14:56:12.810 [t2] DEBUG LiveLock - count: 15
+2021-04-22 14:56:14.815 [t1] DEBUG LiveLock - count: 14
+2021-04-22 14:56:14.815 [t2] DEBUG LiveLock - count: 15
+2021-04-22 14:56:16.822 [t2] DEBUG LiveLock - count: 16
+2021-04-22 14:56:16.822 [t1] DEBUG LiveLock - count: 16
+2021-04-22 14:56:18.826 [t1] DEBUG LiveLock - count: 15
+2021-04-22 14:56:18.826 [t2] DEBUG LiveLock - count: 15
+2021-04-22 14:56:22.896 [t1] DEBUG LiveLock - count: 11
+2021-04-22 14:56:22.896 [t2] DEBUG LiveLock - count: 11
+2021-04-22 14:56:22.911 [t2] DEBUG LiveLock - count: 11
+2021-04-22 14:56:22.911 [t1] DEBUG LiveLock - count: 10
+2021-04-22 14:56:22.927 [t2] DEBUG LiveLock - count: 12
+2021-04-22 14:56:22.927 [t1] DEBUG LiveLock - count: 12
+2021-04-22 14:56:22.943 [t1] DEBUG LiveLock - count: 11
+2021-04-22 14:56:22.943 [t2] DEBUG LiveLock - count: 11
+2021-04-22 14:56:22.959 [t1] DEBUG LiveLock - count: 11
+2021-04-22 14:56:22.959 [t2] DEBUG LiveLock - count: 12
+2021-04-22 14:56:22.975 [t1] DEBUG LiveLock - count: 12
+2021-04-22 14:56:22.975 [t2] DEBUG LiveLock - count: 12
+2021-04-22 14:56:22.991 [t1] DEBUG LiveLock - count: 11
+2021-04-22 14:56:22.991 [t2] DEBUG LiveLock - count: 11
+2021-04-22 14:56:23.006 [t1] DEBUG LiveLock - count: 10
+2021-04-22 14:56:23.006 [t2] DEBUG LiveLock - count: 10
+2021-04-22 14:56:23.022 [t1] DEBUG LiveLock - count: 11
+2021-04-22 14:56:23.022 [t2] DEBUG LiveLock - count: 11
+2021-04-22 14:56:23.037 [t2] DEBUG LiveLock - count: 11
+2021-04-22 14:56:23.037 [t1] DEBUG LiveLock - count: 11
+2021-04-22 14:56:23.053 [t2] DEBUG LiveLock - count: 10
+2021-04-22 14:56:23.053 [t1] DEBUG LiveLock - count: 10
+2021-04-22 14:56:23.069 [t1] DEBUG LiveLock - count: 11
+2021-04-22 14:56:23.069 [t2] DEBUG LiveLock - count: 11
+2021-04-22 14:56:23.085 [t1] DEBUG LiveLock - count: 10
+2021-04-22 14:56:23.085 [t2] DEBUG LiveLock - count: 10
+2021-04-22 14:56:23.101 [t1] DEBUG LiveLock - count: 10
+2021-04-22 14:56:23.101 [t2] DEBUG LiveLock - count: 11
+2021-04-22 14:56:23.116 [t1] DEBUG LiveLock - count: 9
+2021-04-22 14:56:23.116 [t2] DEBUG LiveLock - count: 10
+2021-04-22 14:56:23.131 [t1] DEBUG LiveLock - count: 10
+2021-04-22 14:56:23.131 [t2] DEBUG LiveLock - count: 11
+2021-04-22 14:56:23.146 [t2] DEBUG LiveLock - count: 11
+2021-04-22 14:56:23.146 [t1] DEBUG LiveLock - count: 11
+2021-04-22 14:56:23.162 [t2] DEBUG LiveLock - count: 10
+2021-04-22 14:56:23.162 [t1] DEBUG LiveLock - count: 10
+2021-04-22 14:56:23.178 [t1] DEBUG LiveLock - count: 9
+2021-04-22 14:56:23.178 [t2] DEBUG LiveLock - count: 10
+2021-04-22 14:56:23.194 [t1] DEBUG LiveLock - count: 9
+2021-04-22 14:56:23.194 [t2] DEBUG LiveLock - count: 10
+2021-04-22 14:56:23.210 [t2] DEBUG LiveLock - count: 10
+2021-04-22 14:56:23.210 [t1] DEBUG LiveLock - count: 9
+2021-04-22 14:56:23.226 [t2] DEBUG LiveLock - count: 10
+2021-04-22 14:56:23.226 [t1] DEBUG LiveLock - count: 9
+2021-04-22 14:56:23.242 [t2] DEBUG LiveLock - count: 9
+2021-04-22 14:56:23.242 [t1] DEBUG LiveLock - count: 9
+2021-04-22 14:56:23.258 [t1] DEBUG LiveLock - count: 8
+2021-04-22 14:56:23.258 [t2] DEBUG LiveLock - count: 9
+2021-04-22 14:56:23.274 [t2] DEBUG LiveLock - count: 10
+2021-04-22 14:56:23.274 [t1] DEBUG LiveLock - count: 9
+2021-04-22 14:56:23.290 [t1] DEBUG LiveLock - count: 10
+2021-04-22 14:56:23.290 [t2] DEBUG LiveLock - count: 10
+2021-04-22 14:56:23.305 [t1] DEBUG LiveLock - count: 9
+2021-04-22 14:56:23.305 [t2] DEBUG LiveLock - count: 9
+2021-04-22 14:56:23.320 [t2] DEBUG LiveLock - count: 10
+2021-04-22 14:56:23.320 [t1] DEBUG LiveLock - count: 9
+2021-04-22 14:56:23.335 [t2] DEBUG LiveLock - count: 9
+2021-04-22 14:56:23.335 [t1] DEBUG LiveLock - count: 8
+2021-04-22 14:56:23.351 [t1] DEBUG LiveLock - count: 8
+2021-04-22 14:56:23.351 [t2] DEBUG LiveLock - count: 9
+2021-04-22 14:56:23.366 [t2] DEBUG LiveLock - count: 8
+2021-04-22 14:56:23.366 [t1] DEBUG LiveLock - count: 8
+2021-04-22 14:56:23.382 [t1] DEBUG LiveLock - count: 9
+2021-04-22 14:56:23.382 [t2] DEBUG LiveLock - count: 9
+2021-04-22 14:56:23.398 [t2] DEBUG LiveLock - count: 10
+2021-04-22 14:56:23.398 [t1] DEBUG LiveLock - count: 10
+2021-04-22 14:56:23.413 [t1] DEBUG LiveLock - count: 9
+2021-04-22 14:56:23.413 [t2] DEBUG LiveLock - count: 10
+2021-04-22 14:56:23.429 [t2] DEBUG LiveLock - count: 11
+2021-04-22 14:56:23.429 [t1] DEBUG LiveLock - count: 10
+2021-04-22 14:56:23.444 [t2] DEBUG LiveLock - count: 9
+2021-04-22 14:56:23.444 [t1] DEBUG LiveLock - count: 9
+2021-04-22 14:56:23.460 [t2] DEBUG LiveLock - count: 9
+2021-04-22 14:56:23.460 [t1] DEBUG LiveLock - count: 8
+2021-04-22 14:56:23.476 [t2] DEBUG LiveLock - count: 9
+2021-04-22 14:56:23.476 [t1] DEBUG LiveLock - count: 8
+2021-04-22 14:56:23.491 [t1] DEBUG LiveLock - count: 8
+2021-04-22 14:56:23.491 [t2] DEBUG LiveLock - count: 8
+2021-04-22 14:56:23.507 [t2] DEBUG LiveLock - count: 9
+2021-04-22 14:56:23.507 [t1] DEBUG LiveLock - count: 9
+2021-04-22 14:56:23.523 [t1] DEBUG LiveLock - count: 8
+2021-04-22 14:56:23.523 [t2] DEBUG LiveLock - count: 9
+2021-04-22 14:56:23.539 [t1] DEBUG LiveLock - count: 9
+2021-04-22 14:56:23.539 [t2] DEBUG LiveLock - count: 10
+2021-04-22 14:56:23.555 [t2] DEBUG LiveLock - count: 9
+2021-04-22 14:56:23.555 [t1] DEBUG LiveLock - count: 9
+2021-04-22 14:56:23.571 [t1] DEBUG LiveLock - count: 8
+2021-04-22 14:56:23.571 [t2] DEBUG LiveLock - count: 8
+2021-04-22 14:56:23.587 [t1] DEBUG LiveLock - count: 7
+2021-04-22 14:56:23.587 [t2] DEBUG LiveLock - count: 7
+2021-04-22 14:56:23.603 [t1] DEBUG LiveLock - count: 8
+2021-04-22 14:56:23.603 [t2] DEBUG LiveLock - count: 8
+2021-04-22 14:56:23.619 [t1] DEBUG LiveLock - count: 8
+2021-04-22 14:56:23.619 [t2] DEBUG LiveLock - count: 9
+2021-04-22 14:56:23.635 [t1] DEBUG LiveLock - count: 8
+2021-04-22 14:56:23.635 [t2] DEBUG LiveLock - count: 9
+2021-04-22 14:56:23.650 [t1] DEBUG LiveLock - count: 7
+2021-04-22 14:56:23.650 [t2] DEBUG LiveLock - count: 8
+2021-04-22 14:56:23.666 [t2] DEBUG LiveLock - count: 8
+2021-04-22 14:56:23.666 [t1] DEBUG LiveLock - count: 8
+2021-04-22 14:56:23.682 [t1] DEBUG LiveLock - count: 9
+2021-04-22 14:56:23.682 [t2] DEBUG LiveLock - count: 9
+2021-04-22 14:56:23.698 [t1] DEBUG LiveLock - count: 8
+2021-04-22 14:56:23.698 [t2] DEBUG LiveLock - count: 8
+2021-04-22 14:56:23.713 [t1] DEBUG LiveLock - count: 8
+2021-04-22 14:56:23.713 [t2] DEBUG LiveLock - count: 9
+2021-04-22 14:56:23.728 [t1] DEBUG LiveLock - count: 8
+2021-04-22 14:56:23.728 [t2] DEBUG LiveLock - count: 9
+2021-04-22 14:56:23.744 [t1] DEBUG LiveLock - count: 7
+2021-04-22 14:56:23.744 [t2] DEBUG LiveLock - count: 7
+2021-04-22 14:56:23.760 [t1] DEBUG LiveLock - count: 6
+2021-04-22 14:56:23.760 [t2] DEBUG LiveLock - count: 7
+2021-04-22 14:56:23.776 [t2] DEBUG LiveLock - count: 6
+2021-04-22 14:56:23.776 [t1] DEBUG LiveLock - count: 6
+2021-04-22 14:56:23.792 [t1] DEBUG LiveLock - count: 7
+2021-04-22 14:56:23.792 [t2] DEBUG LiveLock - count: 7
+2021-04-22 14:56:23.808 [t2] DEBUG LiveLock - count: 6
+2021-04-22 14:56:23.808 [t1] DEBUG LiveLock - count: 6
+2021-04-22 14:56:23.823 [t2] DEBUG LiveLock - count: 7
+2021-04-22 14:56:23.823 [t1] DEBUG LiveLock - count: 6
+2021-04-22 14:56:23.839 [t2] DEBUG LiveLock - count: 7
+2021-04-22 14:56:23.839 [t1] DEBUG LiveLock - count: 6
+2021-04-22 14:56:23.854 [t1] DEBUG LiveLock - count: 7
+2021-04-22 14:56:23.854 [t2] DEBUG LiveLock - count: 7
+2021-04-22 14:56:23.869 [t2] DEBUG LiveLock - count: 6
+2021-04-22 14:56:23.869 [t1] DEBUG LiveLock - count: 6
+2021-04-22 14:56:23.885 [t1] DEBUG LiveLock - count: 6
+2021-04-22 14:56:23.885 [t2] DEBUG LiveLock - count: 6
+2021-04-22 14:56:23.900 [t1] DEBUG LiveLock - count: 5
+2021-04-22 14:56:23.900 [t2] DEBUG LiveLock - count: 5
+2021-04-22 14:56:23.916 [t2] DEBUG LiveLock - count: 6
+2021-04-22 14:56:23.916 [t1] DEBUG LiveLock - count: 5
+2021-04-22 14:56:23.932 [t1] DEBUG LiveLock - count: 4
+2021-04-22 14:56:23.932 [t2] DEBUG LiveLock - count: 4
+2021-04-22 14:56:23.948 [t2] DEBUG LiveLock - count: 3
+2021-04-22 14:56:23.948 [t1] DEBUG LiveLock - count: 3
+2021-04-22 14:56:23.964 [t2] DEBUG LiveLock - count: 4
+2021-04-22 14:56:23.964 [t1] DEBUG LiveLock - count: 3
+2021-04-22 14:56:23.980 [t2] DEBUG LiveLock - count: 2
+2021-04-22 14:56:23.980 [t1] DEBUG LiveLock - count: 2
+2021-04-22 14:56:23.996 [t1] DEBUG LiveLock - count: 1
+2021-04-22 14:56:23.996 [t2] DEBUG LiveLock - count: 1
+2021-04-22 14:56:24.012 [t2] DEBUG LiveLock - count: 1
+2021-04-22 14:56:24.012 [t1] DEBUG LiveLock - count: 1
+2021-04-22 14:56:24.028 [t2] DEBUG LiveLock - count: 1
+2021-04-22 14:56:24.028 [t1] DEBUG LiveLock - count: 0
+2021-04-22 14:56:24.043 [t1] DEBUG LiveLock - count: 1
+2021-04-22 14:56:24.043 [t2] DEBUG LiveLock - count: 2
+2021-04-22 14:56:24.059 [t2] DEBUG LiveLock - count: 0
+2021-04-22 14:56:24.059 [t1] DEBUG LiveLock - count: 0
+2021-04-22 14:56:24.074 [t2] DEBUG LiveLock - count: 1
+2021-04-22 14:56:24.090 [t2] DEBUG LiveLock - count: 2
+2021-04-22 14:56:24.105 [t2] DEBUG LiveLock - count: 3
+2021-04-22 14:56:24.121 [t2] DEBUG LiveLock - count: 4
+2021-04-22 14:56:24.136 [t2] DEBUG LiveLock - count: 5
+2021-04-22 14:56:24.151 [t2] DEBUG LiveLock - count: 6
+2021-04-22 14:56:24.166 [t2] DEBUG LiveLock - count: 7
+2021-04-22 14:56:24.182 [t2] DEBUG LiveLock - count: 8
+2021-04-22 14:56:24.197 [t2] DEBUG LiveLock - count: 9
+2021-04-22 14:56:24.213 [t2] DEBUG LiveLock - count: 10
+2021-04-22 14:56:24.228 [t2] DEBUG LiveLock - count: 11
+2021-04-22 14:56:24.243 [t2] DEBUG LiveLock - count: 12
+2021-04-22 14:56:24.259 [t2] DEBUG LiveLock - count: 13
+2021-04-22 14:56:24.274 [t2] DEBUG LiveLock - count: 14
+2021-04-22 14:56:24.290 [t2] DEBUG LiveLock - count: 15
+2021-04-22 14:56:24.305 [t2] DEBUG LiveLock - count: 16
+2021-04-22 14:56:24.320 [t2] DEBUG LiveLock - count: 17
+2021-04-22 14:56:24.336 [t2] DEBUG LiveLock - count: 18
+2021-04-22 14:56:24.352 [t2] DEBUG LiveLock - count: 19
+2021-04-22 14:56:24.368 [t2] DEBUG LiveLock - count: 20
+2021-04-22 22:28:17.863 [main] DEBUG ReentrantLock - enter m1
+2021-04-22 22:28:17.866 [main] DEBUG ReentrantLock - enter m2
+2021-04-22 22:30:21.109 [main] DEBUG ReentrantLock - enter main
+2021-04-22 22:30:21.111 [main] DEBUG ReentrantLock - enter m1
+2021-04-22 22:30:21.111 [main] DEBUG ReentrantLock - enter m2
+2021-04-22 22:30:47.367 [main] DEBUG ReentrantLock - enter main
+2021-04-22 22:31:01.646 [main] DEBUG ReentrantLock - enter m1
+2021-04-22 22:31:05.828 [main] DEBUG ReentrantLock - enter m2
+2021-04-22 22:42:49.162 [t1] DEBUG LockInterruptibly - 尝试获得锁
+2021-04-22 22:42:49.164 [t1] DEBUG LockInterruptibly - 获取到锁
+2021-04-22 22:43:08.226 [t1] DEBUG LockInterruptibly - 尝试获得锁
+2021-04-22 22:44:16.593 [t1] DEBUG LockInterruptibly - 尝试获得锁
+2021-04-22 22:44:17.600 [main] DEBUG LockInterruptibly - 打断t1线程
+2021-04-22 22:44:17.602 [t1] DEBUG LockInterruptibly - 未获取锁
+2021-04-22 22:45:05.329 [t1] DEBUG LockInterruptibly - 尝试获得锁
+2021-04-22 22:45:06.340 [main] DEBUG LockInterruptibly - 打断t1线程
+2021-04-22 22:45:06.341 [t1] DEBUG LockInterruptibly - 未获取锁
+2021-04-22 22:48:27.708 [t2] DEBUG DeadLock - lock B
+2021-04-22 22:48:27.708 [t1] DEBUG DeadLock - lock A
+2021-04-22 22:49:46.320 [main] DEBUG ReentrantLock - enter main
+2021-04-22 22:49:46.322 [main] DEBUG ReentrantLock - enter m1
+2021-04-22 22:49:46.322 [main] DEBUG ReentrantLock - enter m2
+2021-04-22 22:57:01.129 [t1] DEBUG LockInterruptibly - 尝试获得锁
+2021-04-22 22:57:02.148 [main] DEBUG LockInterruptibly - 打断t1线程
+2021-04-22 22:57:02.149 [t1] DEBUG LockInterruptibly - 未获取锁
