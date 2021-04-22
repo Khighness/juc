@@ -29,9 +29,9 @@ public class JoinDemo {
             }
             log.debug("child thread end");
             i *= i;
-        }, "t1");
+        }, "t1"); 
         t1.start();
-//        t1.join();
+        t1.join();
         log.debug("i => [{}]", i);
         log.debug("main thread end");
     }
