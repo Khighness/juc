@@ -3,6 +3,7 @@ package top.parak.share;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.concurrent.TimeUnit;
+import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * @author KHighness
@@ -38,11 +39,17 @@ class Philosopher extends Thread {
 
     public void run() {
         while (true) {
-            // 尝试获得左手筷子
-            synchronized (left) {
-                // 尝试获得右手筷子
-                synchronized (right) {
-                    eat();
+            if (left.tryLock()) { // 尝试获得左手筷子
+                try {
+                    if (right.tryLock()) { // 尝试获得右手筷子
+                        try {
+                            eat();
+                        } finally {
+                            right.unlock(); // 释放右手筷子
+                        }
+                    }
+                } finally {
+                    left.unlock();  // 释放左手筷子
                 }
             }
         }
@@ -60,7 +67,7 @@ class Philosopher extends Thread {
 }
 
 // 筷子
-class Chopstick {
+class Chopstick extends ReentrantLock  {
     String name;
 
     public Chopstick(String name) {
