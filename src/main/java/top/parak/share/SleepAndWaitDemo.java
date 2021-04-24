@@ -11,9 +11,7 @@ import java.util.concurrent.TimeUnit;
 
 @Slf4j(topic = "SleepAndWait")
 public class SleepAndWaitDemo {
-
     private static final Object lock = new Object();
-
     public static void main(String[] args) throws InterruptedException {
         new Thread(() -> {
             synchronized (lock) {

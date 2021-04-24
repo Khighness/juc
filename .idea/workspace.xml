@@ -20,8 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="369b4080-173f-4260-b51c-9825dc12f5f2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/parak/share/PhilosophersEatingDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/parak/share/PhilosophersEatingDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/parak/share/TryLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/parak/share/TryLockDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/parak/basic/InterruptDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/parak/basic/InterruptDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/parak/basic/TwoStageTerminationDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/parak/basic/TwoStageTerminationDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/parak/share/SleepAndWaitDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/parak/share/SleepAndWaitDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,13 +64,13 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
-  <component name="RunManager" selected="Application.AlternateParkUnparkDemo">
-    <configuration name="AlternateAwaitSignalDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.parak.share.AlternateAwaitSignalDemo" />
+  <component name="RunManager" selected="Application.BalkingTwoStageTerminationDemo">
+    <configuration name="BalkingTwoStageTerminationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.parak.jmm.BalkingTwoStageTerminationDemo" />
       <module name="JUC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.parak.share.*" />
+          <option name="PATTERN" value="top.parak.jmm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AlternateParkUnparkDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.parak.share.AlternateParkUnparkDemo" />
+    <configuration name="InterruptDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.parak.basic.InterruptDemo" />
       <module name="JUC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.parak.share.*" />
+          <option name="PATTERN" value="top.parak.basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AlternateWaitNotifyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.parak.share.AlternateWaitNotifyDemo" />
+    <configuration name="TwoStageTerminationDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.parak.jmm.TwoStageTerminationDemo" />
       <module name="JUC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.parak.share.*" />
+          <option name="PATTERN" value="top.parak.jmm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderParkUnparkDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.parak.share.OrderParkUnparkDemo" />
+    <configuration name="TwoStageTerminationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.parak.basic.TwoStageTerminationDemo" />
       <module name="JUC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.parak.share.*" />
+          <option name="PATTERN" value="top.parak.basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,26 +117,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderReentrantDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.parak.share.OrderReentrantDemo" />
+    <configuration name="InterruptDemo.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JUC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.parak.share.*" />
+          <option name="PATTERN" value="top.parak.basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="top.parak.basic" />
+      <option name="MAIN_CLASS_NAME" value="top.parak.basic.InterruptDemo" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AlternateParkUnparkDemo" />
-        <item itemvalue="Application.AlternateAwaitSignalDemo" />
-        <item itemvalue="Application.AlternateWaitNotifyDemo" />
-        <item itemvalue="Application.OrderParkUnparkDemo" />
-        <item itemvalue="Application.OrderReentrantDemo" />
+        <item itemvalue="Application.BalkingTwoStageTerminationDemo" />
+        <item itemvalue="Application.TwoStageTerminationDemo" />
+        <item itemvalue="Application.InterruptDemo" />
+        <item itemvalue="JUnit.InterruptDemo.test3" />
+        <item itemvalue="Application.TwoStageTerminationDemo (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +155,9 @@
       <updated>1619051626360</updated>
       <workItem from="1619051632722" duration="493000" />
       <workItem from="1619052202392" duration="21793000" />
-      <workItem from="1619148781362" duration="20794000" />
+      <workItem from="1619148781362" duration="27039000" />
+      <workItem from="1619236337602" duration="7590000" />
+      <workItem from="1619246152889" duration="9498000" />
     </task>
     <servers />
   </component>
@@ -168,6 +174,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="705" y="216" key="#com.intellij.ide.util.MemberChooser" timestamp="1619174830389">
@@ -178,46 +185,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1619103394669" />
-    <state width="1877" height="288" key="GridCell.Tab.0.bottom" timestamp="1619177510656">
+    <state width="1877" height="335" key="GridCell.Tab.0.bottom" timestamp="1619273481684">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1619177510656" />
+    <state width="1877" height="335" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1619273481684" />
     <state width="1877" height="201" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1619110304082" />
-    <state width="1877" height="288" key="GridCell.Tab.0.center" timestamp="1619177510656">
+    <state width="1877" height="335" key="GridCell.Tab.0.center" timestamp="1619273481684">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1619177510656" />
+    <state width="1877" height="335" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1619273481684" />
     <state width="1877" height="201" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1619110304081" />
-    <state width="1877" height="288" key="GridCell.Tab.0.left" timestamp="1619177510656">
+    <state width="1877" height="335" key="GridCell.Tab.0.left" timestamp="1619273481684">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1619177510656" />
+    <state width="1877" height="335" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1619273481684" />
     <state width="1877" height="201" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1619110304081" />
-    <state width="1877" height="288" key="GridCell.Tab.0.right" timestamp="1619177510656">
+    <state width="1877" height="335" key="GridCell.Tab.0.right" timestamp="1619273481684">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="288" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1619177510656" />
+    <state width="1877" height="335" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1619273481684" />
     <state width="1877" height="201" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1619110304082" />
-    <state width="1877" height="201" key="GridCell.Tab.1.bottom" timestamp="1619110304082">
+    <state width="1877" height="201" key="GridCell.Tab.1.bottom" timestamp="1619246780458">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="201" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1619102568735" />
+    <state width="1877" height="201" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1619246780458" />
     <state width="1877" height="201" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1619110304082" />
-    <state width="1877" height="201" key="GridCell.Tab.1.center" timestamp="1619110304082">
+    <state width="1877" height="201" key="GridCell.Tab.1.center" timestamp="1619246780458">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="201" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1619102568735" />
+    <state width="1877" height="201" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1619246780458" />
     <state width="1877" height="201" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1619110304082" />
-    <state width="1877" height="201" key="GridCell.Tab.1.left" timestamp="1619110304082">
+    <state width="1877" height="201" key="GridCell.Tab.1.left" timestamp="1619246780458">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="201" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1619102568735" />
+    <state width="1877" height="201" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1619246780458" />
     <state width="1877" height="201" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1619110304082" />
-    <state width="1877" height="201" key="GridCell.Tab.1.right" timestamp="1619110304082">
+    <state width="1877" height="201" key="GridCell.Tab.1.right" timestamp="1619246780458">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="201" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1619102568735" />
+    <state width="1877" height="201" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1619246780458" />
     <state width="1877" height="201" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1619110304082" />
+    <state x="581" y="178" key="Maven.ArtifactSearchDialog" timestamp="1619256161191">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="581" y="178" key="Maven.ArtifactSearchDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1619256161191" />
     <state x="925" y="267" width="672" height="678" key="search.everywhere.popup" timestamp="1619178761390">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
