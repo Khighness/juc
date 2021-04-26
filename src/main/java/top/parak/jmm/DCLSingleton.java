@@ -7,7 +7,7 @@ package top.parak.jmm;
 
 public class DCLSingleton {
     private DCLSingleton() { }
-    private static DCLSingleton INSTANCE = null;
+    private volatile static DCLSingleton INSTANCE = null;
     /**
      * 在第一次线程调用getInstance()，直接在synchronized外，判断instance对象是否存在
      * 如果不存在，才会去获取锁，然后创建单例对象，并且返回；第二个线程调用getInstance()，
