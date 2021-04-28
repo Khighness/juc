@@ -1,8 +1,10 @@
 package top.parak.none;
 
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
+import java.util.concurrent.atomic.AtomicReference;
 
 /**
  * @author KHighness
@@ -78,17 +80,20 @@ class AccountCAS implements Account {
 
     @Override
     public void withdraw(Integer amount) {
-        while (true) {
-            // 获取余额的最新值
-            int prev = this.balance.get();
-            // 修改后的余额
-            int next = prev - amount;
-            // 同步到主存
-            // CAS(预期值，修改值) => boolean(是否修改成功)
-            if (this.balance.compareAndSet(prev, next)) {
-                break;
-            }
-        }
+        // （1）while + CAS
+//        while (true) {
+//            // 获取余额的最新值
+//            int prev = this.balance.get();
+//            // 修改后的余额
+//            int next = prev - amount;
+//            // 同步到主存
+//            // CAS(预期值，修改值) => boolean(是否修改成功)
+//            if (this.balance.compareAndSet(prev, next)) {
+//                break;
+//            }
+//        }
+        // (2) getAndAdd
+        this.balance.getAndAdd(-1 * amount);
     }
 }
 
