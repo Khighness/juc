@@ -1,4 +1,4 @@
-package top.parak.none;
+package top.parak.atomic;
 
 import java.util.concurrent.atomic.AtomicInteger;
 

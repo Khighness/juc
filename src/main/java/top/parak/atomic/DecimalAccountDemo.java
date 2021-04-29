@@ -1,4 +1,4 @@
-package top.parak.none;
+package top.parak.atomic;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;

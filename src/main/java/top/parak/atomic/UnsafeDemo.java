@@ -1,4 +1,4 @@
-package top.parak.none;
+package top.parak.atomic;
 
 import sun.misc.Unsafe;
 

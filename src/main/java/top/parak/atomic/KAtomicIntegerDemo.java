@@ -1,6 +1,5 @@
-package top.parak.none;
+package top.parak.atomic;
 
-import org.omg.CORBA.PRIVATE_MEMBER;
 import sun.misc.Unsafe;
 
 /**

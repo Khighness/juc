@@ -1,10 +1,8 @@
-package top.parak.none;
+package top.parak.atomic;
 
-import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
-import java.util.concurrent.atomic.AtomicReference;
 
 /**
  * @author KHighness

@@ -1,4 +1,4 @@
-package top.parak.none;
+package top.parak.atomic;
 
 import lombok.extern.slf4j.Slf4j;
 
