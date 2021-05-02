@@ -13,12 +13,12 @@ import java.util.concurrent.*;
 
 @Slf4j(topic = "Shutdown")
 public class ShutdownDemo {
-    public static void main(String[] args) /* throws InterruptedException, ExecutionException */ {
+    public static void main(String[] args) {
         ExecutorService pool = Executors.newFixedThreadPool(2);
         Future<Integer> future1 = pool.submit(() -> {
             try {
                 log.debug("task1 running");
-                TimeUnit.SECONDS.sleep(1);
+                sleep(1);
                 log.debug("task1 finished");
             } catch (Exception e) {
                 log.debug(e.getMessage());
@@ -28,7 +28,7 @@ public class ShutdownDemo {
         Future<Integer> future2 = pool.submit(() -> {
             try {
                 log.debug("task2 running");
-                TimeUnit.SECONDS.sleep(2);
+                sleep(2);
                 log.debug("task2 finished");
             } catch (Exception e) {
                 log.debug(e.getMessage());
@@ -38,7 +38,7 @@ public class ShutdownDemo {
         Future<Integer> future3 = pool.submit(() -> {
             try {
                 log.debug("task3 running");
-                TimeUnit.SECONDS.sleep(3);
+                sleep(3);
                 log.debug("task3 finished");
             } catch (Exception e) {
                 log.debug(e.getMessage());
@@ -50,6 +50,10 @@ public class ShutdownDemo {
 //        log.debug("task1 result = {}", future1.get());
 //        log.debug("task2 result = {}", future2.get());
         log.debug("{}", Arrays.toString(tasks.toArray()));
+    }
+
+    public static void sleep(int timeout) throws InterruptedException {
+        TimeUnit.SECONDS.sleep(timeout);
     }
 
 }

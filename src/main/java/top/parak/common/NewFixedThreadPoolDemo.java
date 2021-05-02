@@ -2,9 +2,7 @@ package top.parak.common;
 
 import lombok.extern.slf4j.Slf4j;
 
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.ThreadFactory;
+import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
@@ -14,7 +12,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 @Slf4j(topic = "NewFixedThreadPool")
 public class NewFixedThreadPoolDemo {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ExecutionException, InterruptedException {
         ExecutorService pool = Executors.newFixedThreadPool(2, new ThreadFactory() {
             private final AtomicInteger no = new AtomicInteger(1);
             @Override
@@ -25,5 +23,9 @@ public class NewFixedThreadPoolDemo {
         pool.execute(() -> { log.debug("1"); });
         pool.execute(() -> { log.debug("2"); });
         pool.execute(() -> { log.debug("3"); });
+        Future<Integer> future = pool.submit(() -> {
+            return 1 / 0;
+        });
+        log.debug("{}", future.get());
     }
 }
