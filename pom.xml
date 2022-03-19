@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.kag</groupId>
-    <artifactId>JUC</artifactId>
+    <artifactId>juc</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <developers>
@@ -20,7 +20,8 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <junit.version>4.13.1</junit.version>
         <lombok.version>1.18.12</lombok.version>
-        <logback.version>1.1.2</logback.version>
+        <slf.version>1.7.32</slf.version>
+        <logback.version>1.2.3</logback.version>
         <jmh.version>1.28</jmh.version>
         <jol.version>0.10</jol.version>
         <jedis.version>3.3.0</jedis.version>
@@ -38,8 +39,18 @@
             <version>${junit.version}</version>
         </dependency>
         <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${slf.version}</version>
+        </dependency>
+        <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
+            <version>${logback.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-core</artifactId>
             <version>${logback.version}</version>
         </dependency>
         <dependency>

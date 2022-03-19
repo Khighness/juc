@@ -4,7 +4,7 @@
 
 🚀 video: [黑马](https://www.bilibili.com/video/BV16J411h7Rd)
 
-📓 note:   [语雀](https://www.yuque.com/khighness/juc)
+📓 note:  [语雀](https://www.yuque.com/khighness/juc)
 
 
 

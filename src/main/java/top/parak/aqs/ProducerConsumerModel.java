@@ -7,7 +7,6 @@ import java.util.Random;
 import java.util.concurrent.LinkedBlockingDeque;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Condition;
-import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * @author KHighness
@@ -18,8 +17,7 @@ import java.util.concurrent.locks.ReentrantLock;
 @Slf4j(topic = "ProducerConsumerModel")
 public class ProducerConsumerModel {
     /** 不可重入独占锁 */
-//    private final static ParaKLock LOCK = new ParaKLock();
-    private final static ReentrantLock LOCK = new ReentrantLock();
+    private final static ParaKLock LOCK = new ParaKLock();
     /** 已满：生产者条件变量 */
     private final static Condition FULL = LOCK.newCondition();
     /** 已空：消费者者条件变量 */
