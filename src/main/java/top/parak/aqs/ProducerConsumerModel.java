@@ -14,7 +14,7 @@ import java.util.concurrent.locks.Condition;
  * @apiNote 生产-消费模型
  */
 
-@Slf4j(topic = "ProducerConsumerModel")
+@Slf4j// (topic = "ProducerConsumerModel")
 public class ProducerConsumerModel {
     /** 不可重入独占锁 */
     private final static ParaKLock LOCK = new ParaKLock();
